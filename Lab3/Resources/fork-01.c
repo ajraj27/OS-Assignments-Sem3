@@ -23,7 +23,7 @@ void  main(void)
      for (i = 1; i <= MAX_COUNT; i++) {
           sprintf(buf, "This line is from pid %d, value = %d\n", pid, i);
           write(1, buf, strlen(buf));
-        // printf("%s",buf);
+         //printf("%s",buf);
      } 
 }
 
